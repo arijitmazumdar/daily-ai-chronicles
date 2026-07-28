@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/arijitmazumdar/daily-ai-chronicles/schemas/newsletter.schema.json",
+  "title": "Daily AI Chronicle",
+  "type": "object",
+  "required": ["date", "title", "slug", "topic", "summary", "primary_source", "content_path"],
+  "properties": {
+    "date": {"type": "string", "format": "date"},
+    "title": {"type": "string", "minLength": 5},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "topic": {"enum": ["Claude", "Agents", "RAG", "Evaluation", "Cloud", "Deep Learning"]},
+    "summary": {"type": "string", "minLength": 40},
+    "primary_source": {"type": "string", "format": "uri"},
+    "content_path": {"type": "string", "pattern": "^newsletters/[0-9]{4}/[0-9]{2}/.+\\.md$"},
+    "notion_page_url": {"type": "string", "format": "uri"},
+    "status": {"enum": ["Draft", "Applied"]}
+  },
+  "additionalProperties": false
+}
