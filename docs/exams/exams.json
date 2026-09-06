@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-09-06",
+    "week": "31 Aug–6 Sep 2026",
+    "title": "Multi-agent governance, durable execution and tool contracts",
+    "file": "exams/2026-09-06.html"
+  },
+  {
+    "date": "2026-08-30",
+    "week": "24–30 Aug 2026",
+    "title": "Agentic RAG, observability and evaluation release gates",
+    "file": "exams/2026-08-30.html"
+  },
+  {
+    "date": "2026-08-23",
+    "week": "17–23 Aug 2026",
+    "title": "Planning, loop engineering, skills and context engineering",
+    "file": "exams/2026-08-23.html"
+  },
+  {
+    "date": "2026-08-16",
+    "week": "Initial weekly assessment",
+    "title": "Coding agents, harnesses, frameworks, memory and guardrails",
+    "file": "exams/2026-08-16.html"
+  }
+]
